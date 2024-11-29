@@ -1,11 +1,11 @@
 section {
     padding-block: 20px;
     width: 80%;
-}
 
-section ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
 }

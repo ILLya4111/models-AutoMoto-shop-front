@@ -58,7 +58,6 @@ section {
   padding-block: 20px;
   width: 80%;
 }
-
 section ul {
   display: flex;
   flex-direction: column;
@@ -72,7 +71,6 @@ aside {
   border-left: 1px solid #ccc;
   background-color: #333;
 }
-
 aside ul {
   display: flex;
   flex-direction: column;
