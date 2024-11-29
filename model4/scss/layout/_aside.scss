@@ -1,0 +1,12 @@
+aside {
+    width: 20%;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    background-color: #333;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

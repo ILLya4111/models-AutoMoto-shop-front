@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        border-top: #ccc 1px solid;
+        border-left: none;
+    }
+
+    .image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .image2 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .info {
+        width: 100%;
+    }
+}

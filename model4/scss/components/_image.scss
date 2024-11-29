@@ -1,0 +1,23 @@
+.image {
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+
+.image2 {
+    display: flex;
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+
+.image img,
+.image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image2 img {
+    width: 50%;
+}
