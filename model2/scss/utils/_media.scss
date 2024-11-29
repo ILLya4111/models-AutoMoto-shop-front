@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    .main {
+        display: block;
+    }
+
+    .main aside,
+    .main section {
+        display: block;
+        width: 100%;
+    }
+
+    table,
+    td {
+        width: 125%;
+        display: block;
+        border: none;
+    }
+
+    td {
+        margin-bottom: 20px;
+    }
+
+    td img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        gap: 10px;
+    }
+
+    .search-container input {
+        width: 180px;
+        margin: 0 0 0 90px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    button {
+        width: 100px;
+    }
+}

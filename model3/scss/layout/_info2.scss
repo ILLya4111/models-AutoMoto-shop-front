@@ -1,0 +1,27 @@
+.info2 {
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.info2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/images/2.jpg');
+    background-size: contain;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.info2 .btn-register {
+    margin-top: 30px;
+    width: 400px;
+}
