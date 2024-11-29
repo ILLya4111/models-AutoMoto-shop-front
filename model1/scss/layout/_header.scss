@@ -16,13 +16,14 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
+
+  h2 {
+    font-size: 24px;
+  }
 }
 
-.logo h2 {
-  font-size: 24px;
-}
 
-.lines i{
+.lines i {
   display: none;
   fill: #000;
   cursor: pointer;

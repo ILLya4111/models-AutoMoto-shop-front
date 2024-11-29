@@ -5,11 +5,11 @@
 }
 
 @media (max-width: 850px) {
-    .lines i{
-        display:block;
+    .lines i {
+        display: block;
     }
 
-    .search-container form{
+    .search-container form {
         flex-wrap: nowrap;
     }
 
@@ -23,23 +23,11 @@
 }
 
 @media (max-width: 400px) {
-    .lines i{
+    .lines i {
         display: block;
     }
 
     .list {
         gap: 5px;
-    }
-}
-
-@media (max-width: 850px) {
-    main {
-        grid-template-columns: 150px 1fr 150px;
-    }
-}
-
-@media (max-width: 650px) {
-    main {
-        grid-template-columns: 1fr;
     }
 }

@@ -14,13 +14,17 @@
   flex-direction: column;
   padding: 10px;
   gap: 10px;
-}
 
-.panel-list li a {
-  color: #000;
-  transition: all 0.25s ease-in-out;
-}
+  li {
+    a {
+      color: #000;
+      transition: all 0.25s ease-in-out;
+    }
+  }
 
-.panel-list li a:hover {
-  opacity: 0.7;
+  li {
+    a:hover {
+      opacity: 0.7;
+    }
+  }
 }

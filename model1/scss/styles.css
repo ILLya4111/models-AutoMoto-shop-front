@@ -74,7 +74,6 @@ header {
   align-items: center;
   gap: 10px;
 }
-
 .logo h2 {
   font-size: 24px;
 }
@@ -99,7 +98,6 @@ footer {
   background-color: #333;
   height: 40px;
 }
-
 footer p {
   margin: auto 0 auto 0;
   color: white;
@@ -133,16 +131,6 @@ nav {
   opacity: 0.7;
 }
 
-@media (max-width: 850px) {
-  .list {
-    gap: 25px;
-  }
-}
-@media (max-width: 400px) {
-  .list {
-    gap: 5px;
-  }
-}
 .panel {
   position: sticky;
   z-index: 1;
@@ -160,12 +148,10 @@ nav {
   padding: 10px;
   gap: 10px;
 }
-
 .panel-list li a {
   color: #000;
   transition: all 0.25s ease-in-out;
 }
-
 .panel-list li a:hover {
   opacity: 0.7;
 }
@@ -260,15 +246,5 @@ form.example::after {
   }
   .list {
     gap: 5px;
-  }
-}
-@media (max-width: 850px) {
-  main {
-    grid-template-columns: 150px 1fr 150px;
-  }
-}
-@media (max-width: 650px) {
-  main {
-    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=styles.css.map */

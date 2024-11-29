@@ -1,12 +1,12 @@
 @media (max-width: 768px) {
     .main {
         display: block;
-    }
 
-    .main aside,
-    .main section {
-        display: block;
-        width: 100%;
+        aside,
+        section {
+            display: block;
+            width: 100%;
+        }
     }
 
     table,
@@ -18,11 +18,11 @@
 
     td {
         margin-bottom: 20px;
-    }
 
-    td img {
-        width: 120px;
-        height: 120px;
+        img {
+            width: 120px;
+            height: 120px;
+        }
     }
 }
 
