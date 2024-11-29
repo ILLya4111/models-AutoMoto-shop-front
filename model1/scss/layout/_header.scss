@@ -1,0 +1,37 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.header-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h2 {
+  font-size: 24px;
+}
+
+.lines i{
+  display: none;
+  fill: #000;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  margin: 13px 15px;
+}
+
+@media (max-width: 850px) {
+  .lines i {
+    display: block;
+  }
+}

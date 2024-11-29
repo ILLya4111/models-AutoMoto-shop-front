@@ -1,0 +1,45 @@
+@media (max-width: 650px) {
+    .panel {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .lines i{
+        display:block;
+    }
+
+    .search-container form{
+        flex-wrap: nowrap;
+    }
+
+    .list {
+        gap: 25px;
+    }
+
+    form.example input[type=text] {
+        width: 30%;
+    }
+}
+
+@media (max-width: 400px) {
+    .lines i{
+        display: block;
+    }
+
+    .list {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    main {
+        grid-template-columns: 150px 1fr 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}

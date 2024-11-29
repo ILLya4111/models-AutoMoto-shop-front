@@ -1,0 +1,19 @@
+main {
+  position: relative;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  padding-inline: 20px;
+}
+
+@media (max-width: 850px) {
+  main {
+    grid-template-columns: 150px 1fr 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
